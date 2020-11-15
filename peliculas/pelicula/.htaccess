@@ -1,0 +1,4 @@
+Options +FollowSymLinks -MultiViews
+
+RewriteEngine On
+RewriteRule ^([0-9a-zA-Z_-]*)$ PeliculaService.php?param=$1
